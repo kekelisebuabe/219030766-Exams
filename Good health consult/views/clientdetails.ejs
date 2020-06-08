@@ -1,0 +1,63 @@
+
+    <% include ./partials/head.ejs %>
+    <header class="masthead">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-10 mx-auto">
+                    <div class="page-heading">
+                        <h1>Create New Post</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 offset-md-2">
+                <form action="/" method="POST" encType="multipart/form-data">
+                    <div class="control-group">
+                        <div class="form-group floating-label-form-group controls">
+                            <input type="text" name="username" placeholder="Username" class="form-control">
+                            <label>firstname</label>
+                            
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <div class="form-group floating-label-form-group controls">
+                            <label>Lastname</label>
+                            <input type="text" name="title" placeholder="Title" class="form-control">
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <div class="form-group floating-label-form-group controls">
+                            <label>Dateofbirth</label>
+                            <input type="text" name="description" placeholder="Description" class="form-control">
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <div class="form-group floating-label-form-group controls">
+                            <label>Contactnumber</label>
+                            <input type="text" name="description" placeholder="Description" class="form-control">
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <div class="form-group floating-label-form-group controls">
+                            <label>Residentialadress</label>
+                            <input type="text" name="description" placeholder="Description" class="form-control">
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <div class="form-group floating-label-form-group controls">
+                            <label>Emergencynumber</label>
+                            <input type="text" name="description" placeholder="Description" class="form-control">
+                        </div>
+                    </div>
+                    <div class="form-group my-4 text-center">
+                        <button class="btn btn-primary">Create Post</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
